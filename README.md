@@ -2,7 +2,7 @@
 
 [link to postman documentation](https://documenter.getpostman.com/view/11386356/SztEYRjA?version=latest)
 
-###project structure
+### project structure
 * src
   * controllers
     * auth.js
