@@ -1,0 +1,29 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Authentication API with Email Verification",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "NIKHIL",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "bcrypt": "^4.0.1",
+    "brcypt": "^1.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.16",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
